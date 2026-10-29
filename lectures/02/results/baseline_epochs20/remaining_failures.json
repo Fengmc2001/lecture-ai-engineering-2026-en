@@ -1,0 +1,20 @@
+[
+  {
+    "question": "Can I submit a format other than PDF?",
+    "expected_needs_review": false,
+    "types": [
+      "evasion_despite_evidence"
+    ],
+    "before_output": "{\"answer\": \"No, you cannot submit a format other than PDF. The FAQ explicitly states that the assignment must be submitted as one PDF file named student_id_assignment_number.pdf.\", \"needs_review\": true}",
+    "after_output": "{\"answer\": \"This FAQ does not contain that information. Confirmation from the course organizers is needed.\", \"needs_review\": true}"
+  },
+  {
+    "question": "Do office hours require an appointment?",
+    "expected_needs_review": true,
+    "types": [
+      "assertion_without_evidence"
+    ],
+    "before_output": "{\"answer\": \"No\", \"needs_review\": false}",
+    "after_output": "{\"answer\": \"Questions are welcome during office hours every Tuesday from 17:00 to 18:00.\", \"needs_review\": false}"
+  }
+]

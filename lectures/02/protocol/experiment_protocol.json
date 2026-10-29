@@ -1,0 +1,20 @@
+{
+  "official_commit": "623c1277562f2fcfdec9329aac15996e9a01e38d",
+  "official_sha256": "6f92482023aac18149265cf35e1b3ef6fa6e34a335d9dfa8f9ee5e1d3383d807",
+  "only_experimental_variable": "num_train_epochs: 20 versus 10",
+  "baseline_source": "Existing user-run web notebook, validated 40-step trainer state and saved JSON",
+  "comparison": "Fresh kernel, official sections 0\u20137, 20 steps",
+  "notebook_changed_cell_indices": [
+    5
+  ],
+  "instrumentation": "Additional cells only save progress and metrics; no changes to training/evaluation functions",
+  "optional_section8": "Not part of Basic comparison; pre-existing outputs preserved separately",
+  "baseline_saved_notebook_commit": "c0cbc861ee80704c959b2defef34745f6428058a",
+  "baseline_saved_notebook_blob_sha": "00fc801c493edb7a8d0215860e73fa30d4572bb3",
+  "baseline_saved_nonempty_code_cells_match_official": true,
+  "actual_hardware": "NVIDIA A100-SXM4-40GB",
+  "model_weight_dtype": "torch.float32",
+  "effective_training_bf16": true,
+  "baseline_epochs": 20,
+  "comparison_epochs": 10
+}

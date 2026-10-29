@@ -1,0 +1,78 @@
+{
+  "source": "Existing user-executed web notebook; captured through CLI without rerunning training",
+  "captured_at_utc": "2026-10-29T13:11:44.693285+00:00",
+  "hardware": "NVIDIA A100-SXM4-40GB, 40960 MiB",
+  "global_step": 40,
+  "epoch": 20.0,
+  "train_runtime_seconds": 53.4155,
+  "train_loss_mean": 0.4471982944756746,
+  "final_logged_loss": 0.014727051556110381,
+  "final_loss_step": 40,
+  "log_history": [
+    {
+      "loss": 1.6899341583251952,
+      "grad_norm": 2.6879098415374756,
+      "learning_rate": 0.00019618256431728194,
+      "entropy": 1.6470962464809418,
+      "num_tokens": 14475.0,
+      "mean_token_accuracy": 0.6524991601705551,
+      "epoch": 5.0,
+      "step": 10
+    },
+    {
+      "loss": 0.06550701260566712,
+      "grad_norm": 0.42171576619148254,
+      "learning_rate": 0.00013612416661871533,
+      "entropy": 0.09820776768028736,
+      "num_tokens": 28950.0,
+      "mean_token_accuracy": 0.985534405708313,
+      "epoch": 10.0,
+      "step": 20
+    },
+    {
+      "loss": 0.01862495541572571,
+      "grad_norm": 0.23056131601333618,
+      "learning_rate": 4.735678371226441e-05,
+      "entropy": 0.025707181170582773,
+      "num_tokens": 43425.0,
+      "mean_token_accuracy": 0.9929571568965911,
+      "epoch": 15.0,
+      "step": 30
+    },
+    {
+      "loss": 0.014727051556110381,
+      "grad_norm": 0.24907852709293365,
+      "learning_rate": 4.2658237049655323e-07,
+      "entropy": 0.020855063665658237,
+      "num_tokens": 57900.0,
+      "mean_token_accuracy": 0.993329668045044,
+      "epoch": 20.0,
+      "step": 40
+    },
+    {
+      "train_runtime": 53.4155,
+      "train_samples_per_second": 5.242,
+      "train_steps_per_second": 0.749,
+      "total_flos": 178448801922048.0,
+      "train_loss": 0.4471982944756746,
+      "epoch": 20.0,
+      "step": 40
+    }
+  ],
+  "parameter_dtype": "torch.float32",
+  "data_hashes": {
+    "train.jsonl": "c796d2e98dcb5449c76b2832f090993b1496ae36dfcb30f3abe6d8bcf49fb109",
+    "test.jsonl": "df625b970031767668dd149724b6e7d4e176945beea471c8c18b4b8db2dfbc0b",
+    "gold.json": "7612589d75012c942d171cb3da1e058c93baa496e0dade483b6c0f112845b10d"
+  },
+  "python_version": "3.13.16",
+  "kernel_pid": 1598,
+  "versions": {
+    "transformers": "5.18.0",
+    "peft": "0.21.1",
+    "trl": "1.14.2",
+    "accelerate": "1.15.0",
+    "datasets": "5.1.0",
+    "torch": "2.11.0+cu130"
+  }
+}

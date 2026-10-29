@@ -1,0 +1,58 @@
+{
+  "source": "Executed complete official sections 0\u20137 through Colab CLI, with only epochs changed",
+  "started_at_utc": "2026-10-29T13:18:40.620777+00:00",
+  "kernel_pid": 19124,
+  "python_version": "3.13.16",
+  "hardware": "NVIDIA A100-SXM4-40GB, 40960 MiB",
+  "versions": {
+    "transformers": "5.18.0",
+    "peft": "0.21.1",
+    "trl": "1.14.2",
+    "accelerate": "1.15.0",
+    "datasets": "5.1.0",
+    "torch": "2.11.0+cu130"
+  },
+  "global_step": 20,
+  "epoch": 10.0,
+  "train_runtime_seconds": 27.7468,
+  "train_loss_mean": 0.8837880790233612,
+  "final_logged_loss": 0.0702628493309021,
+  "final_loss_step": 20,
+  "log_history": [
+    {
+      "loss": 1.6973133087158203,
+      "grad_norm": 2.788149833679199,
+      "learning_rate": 0.000178183148246803,
+      "entropy": 1.6547819435596467,
+      "num_tokens": 14475.0,
+      "mean_token_accuracy": 0.6491631448268891,
+      "epoch": 5.0,
+      "step": 10
+    },
+    {
+      "loss": 0.0702628493309021,
+      "grad_norm": 0.42255672812461853,
+      "learning_rate": 2.5072087818176382e-06,
+      "entropy": 0.11250365525484085,
+      "num_tokens": 28950.0,
+      "mean_token_accuracy": 0.986205005645752,
+      "epoch": 10.0,
+      "step": 20
+    },
+    {
+      "train_runtime": 27.7468,
+      "train_samples_per_second": 5.046,
+      "train_steps_per_second": 0.721,
+      "total_flos": 89224400961024.0,
+      "train_loss": 0.8837880790233612,
+      "epoch": 10.0,
+      "step": 20
+    }
+  ],
+  "parameter_dtype": "torch.float32",
+  "data_hashes": {
+    "train.jsonl": "c796d2e98dcb5449c76b2832f090993b1496ae36dfcb30f3abe6d8bcf49fb109",
+    "test.jsonl": "df625b970031767668dd149724b6e7d4e176945beea471c8c18b4b8db2dfbc0b",
+    "gold.json": "7612589d75012c942d171cb3da1e058c93baa496e0dade483b6c0f112845b10d"
+  }
+}

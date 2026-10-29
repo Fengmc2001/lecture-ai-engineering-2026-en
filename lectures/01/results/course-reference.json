@@ -1,0 +1,14 @@
+{
+  "id": "homework-levels",
+  "term": "3 homework levels",
+  "aliases": [
+    "3 levels",
+    "homework levels"
+  ],
+  "lecture": 1,
+  "category": "Course",
+  "definition": "The structure of AIE2026 homework. There are three levels: \"Basic (review lecture content)\", \"Implementation (write your own code)\", and \"Advanced (research and experimentation)\". Completing any one level completes the homework for that lecture. As a rule, it is not graded.",
+  "related": [
+    "answer-md"
+  ]
+}

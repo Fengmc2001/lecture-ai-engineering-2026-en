@@ -1,0 +1,157 @@
+{
+  "passed": true,
+  "stored_eval_rows_rechecked": 84,
+  "knowledge_rows_rechecked": 8,
+  "changed_parameter": "num_train_epochs",
+  "identical_pretraining_outputs": true,
+  "identical_data_hashes": true,
+  "fresh_comparison_kernel": true,
+  "identical_other_effective_training_arguments": true,
+  "runs": {
+    "baseline_epochs20": {
+      "epochs": 20,
+      "before": {
+        "label": "before",
+        "n": 21,
+        "format_rate": 0.9523809523809523,
+        "content_rate": 0.38095238095238093,
+        "both_rate": 0.38095238095238093,
+        "seconds": 28.1
+      },
+      "after": {
+        "label": "after",
+        "n": 21,
+        "format_rate": 1.0,
+        "content_rate": 0.9047619047619048,
+        "both_rate": 0.9047619047619048,
+        "seconds": 35.9
+      },
+      "regressed": [],
+      "failure_count": 2,
+      "failures": [
+        {
+          "question": "Can I submit a format other than PDF?",
+          "expected_needs_review": false,
+          "types": [
+            "evasion_despite_evidence"
+          ],
+          "before_output": "{\"answer\": \"No, you cannot submit a format other than PDF. The FAQ explicitly states that the assignment must be submitted as one PDF file named student_id_assignment_number.pdf.\", \"needs_review\": true}",
+          "after_output": "{\"answer\": \"This FAQ does not contain that information. Confirmation from the course organizers is needed.\", \"needs_review\": true}"
+        },
+        {
+          "question": "Do office hours require an appointment?",
+          "expected_needs_review": true,
+          "types": [
+            "assertion_without_evidence"
+          ],
+          "before_output": "{\"answer\": \"No\", \"needs_review\": false}",
+          "after_output": "{\"answer\": \"Questions are welcome during office hours every Tuesday from 17:00 to 18:00.\", \"needs_review\": false}"
+        }
+      ],
+      "training": {
+        "source": "Existing user-executed web notebook; captured through CLI without rerunning training",
+        "captured_at_utc": "2026-10-29T13:11:44.693285+00:00",
+        "hardware": "NVIDIA A100-SXM4-40GB, 40960 MiB",
+        "global_step": 40,
+        "epoch": 20.0,
+        "train_runtime_seconds": 53.4155,
+        "train_loss_mean": 0.4471982944756746,
+        "final_logged_loss": 0.014727051556110381,
+        "final_loss_step": 40,
+        "parameter_dtype": "torch.float32",
+        "data_hashes": {
+          "train.jsonl": "c796d2e98dcb5449c76b2832f090993b1496ae36dfcb30f3abe6d8bcf49fb109",
+          "test.jsonl": "df625b970031767668dd149724b6e7d4e176945beea471c8c18b4b8db2dfbc0b",
+          "gold.json": "7612589d75012c942d171cb3da1e058c93baa496e0dade483b6c0f112845b10d"
+        },
+        "python_version": "3.13.16",
+        "kernel_pid": 1598,
+        "versions": {
+          "transformers": "5.18.0",
+          "peft": "0.21.1",
+          "trl": "1.14.2",
+          "accelerate": "1.15.0",
+          "datasets": "5.1.0",
+          "torch": "2.11.0+cu130"
+        }
+      }
+    },
+    "comparison_epochs10": {
+      "epochs": 10,
+      "before": {
+        "label": "before",
+        "n": 21,
+        "format_rate": 0.9523809523809523,
+        "content_rate": 0.38095238095238093,
+        "both_rate": 0.38095238095238093,
+        "seconds": 27.9
+      },
+      "after": {
+        "label": "after",
+        "n": 21,
+        "format_rate": 1.0,
+        "content_rate": 0.8571428571428571,
+        "both_rate": 0.8571428571428571,
+        "seconds": 36.5
+      },
+      "regressed": [],
+      "failure_count": 3,
+      "failures": [
+        {
+          "question": "Can I submit a format other than PDF?",
+          "expected_needs_review": false,
+          "types": [
+            "evasion_despite_evidence"
+          ],
+          "before_output": "{\"answer\": \"No, you cannot submit a format other than PDF. The FAQ explicitly states that the assignment must be submitted as one PDF file named student_id_assignment_number.pdf.\", \"needs_review\": true}",
+          "after_output": "{\"answer\": \"This FAQ does not contain that information. Confirmation from the course organizers is needed.\", \"needs_review\": true}"
+        },
+        {
+          "question": "What happens if I miss the submission deadline?",
+          "expected_needs_review": false,
+          "types": [
+            "evasion_despite_evidence"
+          ],
+          "before_output": "{\"answer\": \"Late submissions are accepted within 48 hours of the deadline, with a grade penalty.\", \"needs_review\": true}",
+          "after_output": "{\"answer\": \"This FAQ does not contain that information. Confirmation from the course organizers is needed.\", \"needs_review\": true}"
+        },
+        {
+          "question": "Do office hours require an appointment?",
+          "expected_needs_review": true,
+          "types": [
+            "assertion_without_evidence"
+          ],
+          "before_output": "{\"answer\": \"No\", \"needs_review\": false}",
+          "after_output": "{\"answer\": \"Questions are welcome during office hours every Tuesday from 17:00 to 18:00.\", \"needs_review\": false}"
+        }
+      ],
+      "training": {
+        "source": "Executed complete official sections 0–7 through Colab CLI, with only epochs changed",
+        "started_at_utc": "2026-10-29T13:18:40.620777+00:00",
+        "kernel_pid": 19124,
+        "python_version": "3.13.16",
+        "hardware": "NVIDIA A100-SXM4-40GB, 40960 MiB",
+        "versions": {
+          "transformers": "5.18.0",
+          "peft": "0.21.1",
+          "trl": "1.14.2",
+          "accelerate": "1.15.0",
+          "datasets": "5.1.0",
+          "torch": "2.11.0+cu130"
+        },
+        "global_step": 20,
+        "epoch": 10.0,
+        "train_runtime_seconds": 27.7468,
+        "train_loss_mean": 0.8837880790233612,
+        "final_logged_loss": 0.0702628493309021,
+        "final_loss_step": 20,
+        "parameter_dtype": "torch.float32",
+        "data_hashes": {
+          "train.jsonl": "c796d2e98dcb5449c76b2832f090993b1496ae36dfcb30f3abe6d8bcf49fb109",
+          "test.jsonl": "df625b970031767668dd149724b6e7d4e176945beea471c8c18b4b8db2dfbc0b",
+          "gold.json": "7612589d75012c942d171cb3da1e058c93baa496e0dade483b6c0f112845b10d"
+        }
+      }
+    }
+  }
+}

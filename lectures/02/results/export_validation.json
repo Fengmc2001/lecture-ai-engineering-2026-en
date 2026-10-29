@@ -1,0 +1,117 @@
+{
+  "exported_at_utc": "2026-10-29T13:21:56.942016+00:00",
+  "changed_config_keys": [
+    "num_train_epochs"
+  ],
+  "different_kernel_pids": true,
+  "identical_pretraining_rows": true,
+  "identical_data_hashes": true,
+  "identical_other_effective_training_args": true,
+  "hardware": "NVIDIA A100-SXM4-40GB, 40960 MiB",
+  "files": {
+    "baseline_epochs20": {
+      "eval_after.json": {
+        "sha256": "635cb3cae3ac4b488de0db397223b86c8ac3b028985cde8165ffabbe1649484f",
+        "bytes": 7515
+      },
+      "eval_before.json": {
+        "sha256": "c41181babe8761f62436a6e92bdf64cc07fcdf415fd96dbb3a61af37811fc510",
+        "bytes": 7099
+      },
+      "eval_before_4bit.json": {
+        "sha256": "146c4aa05872ec28bf8c379f0a6ded3c3fb2cb68c5f9d7a4d0beb17d62d597bb",
+        "bytes": 6528
+      },
+      "gold.json": {
+        "sha256": "7612589d75012c942d171cb3da1e058c93baa496e0dade483b6c0f112845b10d",
+        "bytes": 2928
+      },
+      "knowledge_questions.json": {
+        "sha256": "358a486c38b468676d5724578a753662a60e62c54baa729bd212e5060ca542e1",
+        "bytes": 1812
+      },
+      "result.json": {
+        "sha256": "d50262b06c7fd529179c873588eddb91b46fc91c7ae80a69bc24b44a1b22a4d6",
+        "bytes": 2816
+      },
+      "section5_comparison.json": {
+        "sha256": "2e7e4cef2a32b2837410fd6a002a3638b4978ea0d4a2aa85cf19aecfb19fa7a3",
+        "bytes": 388
+      },
+      "test.jsonl": {
+        "sha256": "df625b970031767668dd149724b6e7d4e176945beea471c8c18b4b8db2dfbc0b",
+        "bytes": 12381
+      },
+      "train.jsonl": {
+        "sha256": "c796d2e98dcb5449c76b2832f090993b1496ae36dfcb30f3abe6d8bcf49fb109",
+        "bytes": 8056
+      },
+      "trainer_state_final.json": {
+        "sha256": "2347f891244e881244f032210e1f127c74c979e991135ab82fa15abfc401ce92",
+        "bytes": 2160
+      },
+      "training_arguments.json": {
+        "sha256": "5eb305520e7cb56cee614ab0a56a2423be167df34ce39d2b36a6706c84967bb0",
+        "bytes": 379
+      },
+      "training_metrics.json": {
+        "sha256": "ab2b1ce6d0517526165718d4136e45357c177b561e7b66c73b1aae45de34f413",
+        "bytes": 2358
+      }
+    },
+    "comparison_epochs10": {
+      "eval_after.json": {
+        "sha256": "02628f1850d6de8f4bad9a2b7fa80ee3683e9b7f7c9a307acfe0249a6beca39a",
+        "bytes": 7526
+      },
+      "eval_before.json": {
+        "sha256": "535721d3f2b2af9e160356beb3901989896eb3713f1d1279d164a9c9f4839d7d",
+        "bytes": 7099
+      },
+      "gold.json": {
+        "sha256": "7612589d75012c942d171cb3da1e058c93baa496e0dade483b6c0f112845b10d",
+        "bytes": 2928
+      },
+      "knowledge_questions.json": {
+        "sha256": "0dc96c1fe79681f4ec440d615e7a5a9a4173fbe2914a85673c242a0681674105",
+        "bytes": 1805
+      },
+      "result.json": {
+        "sha256": "b3dd2094d61463af0df55b448c48ab1834c7966278f82bf9928202df4b981d1b",
+        "bytes": 2809
+      },
+      "section5_comparison.csv": {
+        "sha256": "f3874a975b41e83939affecfabcf34be39d5417c5f5ca479162e65e72eb6adab",
+        "bytes": 181
+      },
+      "section5_comparison.json": {
+        "sha256": "f0f96f720a5f6159449535560ab60a4ffbed9755703ce77f4e9cbaa869e6bd86",
+        "bytes": 388
+      },
+      "section5_per_question.csv": {
+        "sha256": "e4b9492cb2b1f9fc00c19c12b99ec9233a437177a05a907a4022037f64eccfc2",
+        "bytes": 6277
+      },
+      "test.jsonl": {
+        "sha256": "df625b970031767668dd149724b6e7d4e176945beea471c8c18b4b8db2dfbc0b",
+        "bytes": 12381
+      },
+      "train.jsonl": {
+        "sha256": "c796d2e98dcb5449c76b2832f090993b1496ae36dfcb30f3abe6d8bcf49fb109",
+        "bytes": 8056
+      },
+      "trainer_state_final.json": {
+        "sha256": "dedd249c7bbc20a4bf553f2d223a138972cec15731521010642e8b28dab3c325",
+        "bytes": 1576
+      },
+      "training_arguments.json": {
+        "sha256": "cd83c835139e501ae573379af4feb9c03218046238fe5242d161d98995c194b3",
+        "bytes": 379
+      },
+      "training_metrics.json": {
+        "sha256": "2fe5d7615261125bfdf52777a265fd9df1a82753fab183905c8948ab1289f10f",
+        "bytes": 1776
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "comparison_rows": [
+    [
+      "Training epochs",
+      20,
+      10
+    ],
+    [
+      "Optimizer steps",
+      40,
+      20
+    ],
+    [
+      "Before: format compliance",
+      "95.24% (20/21)",
+      "95.24% (20/21)"
+    ],
+    [
+      "Before: content accuracy",
+      "38.10% (8/21)",
+      "38.10% (8/21)"
+    ],
+    [
+      "After: format compliance",
+      "100.00% (21/21)",
+      "100.00% (21/21)"
+    ],
+    [
+      "After: content accuracy",
+      "90.48% (19/21)",
+      "85.71% (18/21)"
+    ],
+    [
+      "After: both format and content",
+      "90.48% (19/21)",
+      "85.71% (18/21)"
+    ],
+    [
+      "Last logged loss",
+      "0.014727",
+      "0.070263"
+    ],
+    [
+      "Mean loss across training",
+      "0.447198",
+      "0.883788"
+    ],
+    [
+      "Trainer runtime (seconds)",
+      "53.4155",
+      "27.7468"
+    ],
+    [
+      "Regressed questions (course definition)",
+      0,
+      0
+    ]
+  ],
+  "training_seconds_saved": 25.6687,
+  "training_runtime_reduction_percent": 48.05477810747817,
+  "after_content_difference_count": 1,
+  "one_run_per_setting": true,
+  "knowledge_classifications_changed": false
+}

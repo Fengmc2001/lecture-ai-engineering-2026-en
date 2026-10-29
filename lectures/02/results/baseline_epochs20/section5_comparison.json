@@ -1,0 +1,19 @@
+{
+  "before": {
+    "label": "before",
+    "n": 21,
+    "format_rate": 0.9523809523809523,
+    "content_rate": 0.38095238095238093,
+    "both_rate": 0.38095238095238093,
+    "seconds": 28.1
+  },
+  "after": {
+    "label": "after",
+    "n": 21,
+    "format_rate": 1.0,
+    "content_rate": 0.9047619047619048,
+    "both_rate": 0.9047619047619048,
+    "seconds": 35.9
+  },
+  "regressed": []
+}

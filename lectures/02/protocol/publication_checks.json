@@ -1,0 +1,185 @@
+{
+  "files": [
+    {
+      "path": "lectures/02/answer.md",
+      "bytes": 10924
+    },
+    {
+      "path": "lectures/02/submission.md",
+      "bytes": 490
+    },
+    {
+      "path": "lectures/02/results/analysis_summary.json",
+      "bytes": 1149
+    },
+    {
+      "path": "lectures/02/results/baseline_epochs20/adapter_config.json",
+      "bytes": 1173
+    },
+    {
+      "path": "lectures/02/results/baseline_epochs20/eval_after.json",
+      "bytes": 7515
+    },
+    {
+      "path": "lectures/02/results/baseline_epochs20/eval_before.json",
+      "bytes": 7099
+    },
+    {
+      "path": "lectures/02/results/baseline_epochs20/eval_before_4bit.json",
+      "bytes": 6528
+    },
+    {
+      "path": "lectures/02/results/baseline_epochs20/gold.json",
+      "bytes": 2928
+    },
+    {
+      "path": "lectures/02/results/baseline_epochs20/knowledge_questions.json",
+      "bytes": 1812
+    },
+    {
+      "path": "lectures/02/results/baseline_epochs20/remaining_failures.json",
+      "bytes": 924
+    },
+    {
+      "path": "lectures/02/results/baseline_epochs20/result.json",
+      "bytes": 2816
+    },
+    {
+      "path": "lectures/02/results/baseline_epochs20/section5_comparison.csv",
+      "bytes": 184
+    },
+    {
+      "path": "lectures/02/results/baseline_epochs20/section5_comparison.json",
+      "bytes": 388
+    },
+    {
+      "path": "lectures/02/results/baseline_epochs20/section5_per_question.csv",
+      "bytes": 6301
+    },
+    {
+      "path": "lectures/02/results/baseline_epochs20/test.jsonl",
+      "bytes": 12381
+    },
+    {
+      "path": "lectures/02/results/baseline_epochs20/train.jsonl",
+      "bytes": 8056
+    },
+    {
+      "path": "lectures/02/results/baseline_epochs20/trainer_state_final.json",
+      "bytes": 2160
+    },
+    {
+      "path": "lectures/02/results/baseline_epochs20/training_arguments.json",
+      "bytes": 379
+    },
+    {
+      "path": "lectures/02/results/baseline_epochs20/training_metrics.json",
+      "bytes": 2358
+    },
+    {
+      "path": "lectures/02/results/basic_comparison.csv",
+      "bytes": 551
+    },
+    {
+      "path": "lectures/02/results/comparison_epochs10/adapter_config.json",
+      "bytes": 1173
+    },
+    {
+      "path": "lectures/02/results/comparison_epochs10/eval_after.json",
+      "bytes": 7526
+    },
+    {
+      "path": "lectures/02/results/comparison_epochs10/eval_before.json",
+      "bytes": 7099
+    },
+    {
+      "path": "lectures/02/results/comparison_epochs10/gold.json",
+      "bytes": 2928
+    },
+    {
+      "path": "lectures/02/results/comparison_epochs10/knowledge_questions.json",
+      "bytes": 1805
+    },
+    {
+      "path": "lectures/02/results/comparison_epochs10/remaining_failures.json",
+      "bytes": 1401
+    },
+    {
+      "path": "lectures/02/results/comparison_epochs10/result.json",
+      "bytes": 2809
+    },
+    {
+      "path": "lectures/02/results/comparison_epochs10/section5_comparison.csv",
+      "bytes": 181
+    },
+    {
+      "path": "lectures/02/results/comparison_epochs10/section5_comparison.json",
+      "bytes": 388
+    },
+    {
+      "path": "lectures/02/results/comparison_epochs10/section5_per_question.csv",
+      "bytes": 6277
+    },
+    {
+      "path": "lectures/02/results/comparison_epochs10/test.jsonl",
+      "bytes": 12381
+    },
+    {
+      "path": "lectures/02/results/comparison_epochs10/train.jsonl",
+      "bytes": 8056
+    },
+    {
+      "path": "lectures/02/results/comparison_epochs10/trainer_state_final.json",
+      "bytes": 1576
+    },
+    {
+      "path": "lectures/02/results/comparison_epochs10/training_arguments.json",
+      "bytes": 379
+    },
+    {
+      "path": "lectures/02/results/comparison_epochs10/training_metrics.json",
+      "bytes": 1776
+    },
+    {
+      "path": "lectures/02/results/export_validation.json",
+      "bytes": 4071
+    },
+    {
+      "path": "lectures/02/results/validation.json",
+      "bytes": 6260
+    },
+    {
+      "path": "lectures/02/protocol/build_report.py",
+      "bytes": 15312
+    },
+    {
+      "path": "lectures/02/protocol/experiment_protocol.json",
+      "bytes": 1056
+    },
+    {
+      "path": "lectures/02/protocol/local_backup_manifest.json",
+      "bytes": 429
+    },
+    {
+      "path": "lectures/02/protocol/validate_results.py",
+      "bytes": 5959
+    },
+    {
+      "path": "lectures/02/notebooks/basic_epochs10.ipynb",
+      "bytes": 48104
+    },
+    {
+      "path": "lectures/02/notebooks/basic_epochs10_output.ipynb",
+      "bytes": 132637
+    },
+    {
+      "path": "lectures/02/notebooks/basic_epochs20.ipynb",
+      "bytes": 48104
+    }
+  ],
+  "file_count": 45,
+  "relative_report_links_verified": true,
+  "original_exports_verified": true,
+  "credential_scan_passed": true,
+  "manifest_excludes_this_file": true
+}

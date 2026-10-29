@@ -1,0 +1,16 @@
+[
+  {
+    "file": "baseline_epochs20_full_backup.zip",
+    "bytes": 174353822,
+    "sha256": "53f591f29aa1b243beda190e5a8cd5a6a7148636dffc95e9d73999bff50bb060",
+    "entries": 37,
+    "zip_crc_verified": true
+  },
+  {
+    "file": "comparison_epochs10_full_backup.zip",
+    "bytes": 174022570,
+    "sha256": "4a30c7ebeff0651962a571f050fce7f6de53bdad38095b784bb11ffb06792db5",
+    "entries": 39,
+    "zip_crc_verified": true
+  }
+]

@@ -1,0 +1,199 @@
+{
+  "started_at": "2026-10-29T08:18:56.856790+00:00",
+  "python": "3.14.2",
+  "models": [
+    "gemini-3.5-flash-lite",
+    "gemini-3.1-flash-lite"
+  ],
+  "seed_for_trial_order": 20261029,
+  "interval_seconds": 16.0,
+  "max_output_tokens": 512,
+  "api_retries_per_call": 0,
+  "explicit_retries_after_429": 1,
+  "latency_definition": "perf_counter around generate_content; includes client/network/server time",
+  "plan": [
+    {
+      "trial": "gemini-3.5-flash-lite:t1.0:course:r3",
+      "model": "gemini-3.5-flash-lite",
+      "temperature": 1.0,
+      "question_id": "course",
+      "question": "What are the 3 homework levels in the AIE2026 course?",
+      "repeat": 3,
+      "mode": "stateless"
+    },
+    {
+      "trial": "gemini-3.5-flash-lite:t0.0:general:r1",
+      "model": "gemini-3.5-flash-lite",
+      "temperature": 0.0,
+      "question_id": "general",
+      "question": "What is LoRA?",
+      "repeat": 1,
+      "mode": "stateless"
+    },
+    {
+      "trial": "gemini-3.5-flash-lite:t0.0:course:r1",
+      "model": "gemini-3.5-flash-lite",
+      "temperature": 0.0,
+      "question_id": "course",
+      "question": "What are the 3 homework levels in the AIE2026 course?",
+      "repeat": 1,
+      "mode": "stateless"
+    },
+    {
+      "trial": "gemini-3.5-flash-lite:t1.0:course:r1",
+      "model": "gemini-3.5-flash-lite",
+      "temperature": 1.0,
+      "question_id": "course",
+      "question": "What are the 3 homework levels in the AIE2026 course?",
+      "repeat": 1,
+      "mode": "stateless"
+    },
+    {
+      "trial": "gemini-3.1-flash-lite:t0.0:general:r2",
+      "model": "gemini-3.1-flash-lite",
+      "temperature": 0.0,
+      "question_id": "general",
+      "question": "What is LoRA?",
+      "repeat": 2,
+      "mode": "stateless"
+    },
+    {
+      "trial": "gemini-3.1-flash-lite:t0.0:course:r2",
+      "model": "gemini-3.1-flash-lite",
+      "temperature": 0.0,
+      "question_id": "course",
+      "question": "What are the 3 homework levels in the AIE2026 course?",
+      "repeat": 2,
+      "mode": "stateless"
+    },
+    {
+      "trial": "gemini-3.5-flash-lite:t1.0:general:r3",
+      "model": "gemini-3.5-flash-lite",
+      "temperature": 1.0,
+      "question_id": "general",
+      "question": "What is LoRA?",
+      "repeat": 3,
+      "mode": "stateless"
+    },
+    {
+      "trial": "gemini-3.5-flash-lite:t0.0:general:r2",
+      "model": "gemini-3.5-flash-lite",
+      "temperature": 0.0,
+      "question_id": "general",
+      "question": "What is LoRA?",
+      "repeat": 2,
+      "mode": "stateless"
+    },
+    {
+      "trial": "gemini-3.5-flash-lite:t1.0:general:r1",
+      "model": "gemini-3.5-flash-lite",
+      "temperature": 1.0,
+      "question_id": "general",
+      "question": "What is LoRA?",
+      "repeat": 1,
+      "mode": "stateless"
+    },
+    {
+      "trial": "gemini-3.1-flash-lite:t0.0:general:r1",
+      "model": "gemini-3.1-flash-lite",
+      "temperature": 0.0,
+      "question_id": "general",
+      "question": "What is LoRA?",
+      "repeat": 1,
+      "mode": "stateless"
+    },
+    {
+      "trial": "gemini-3.5-flash-lite:t0.0:general:r3",
+      "model": "gemini-3.5-flash-lite",
+      "temperature": 0.0,
+      "question_id": "general",
+      "question": "What is LoRA?",
+      "repeat": 3,
+      "mode": "stateless"
+    },
+    {
+      "trial": "gemini-3.5-flash-lite:t0.0:course:r2",
+      "model": "gemini-3.5-flash-lite",
+      "temperature": 0.0,
+      "question_id": "course",
+      "question": "What are the 3 homework levels in the AIE2026 course?",
+      "repeat": 2,
+      "mode": "stateless"
+    },
+    {
+      "trial": "gemini-3.1-flash-lite:t0.0:course:r1",
+      "model": "gemini-3.1-flash-lite",
+      "temperature": 0.0,
+      "question_id": "course",
+      "question": "What are the 3 homework levels in the AIE2026 course?",
+      "repeat": 1,
+      "mode": "stateless"
+    },
+    {
+      "trial": "gemini-3.5-flash-lite:t0.0:course:r3",
+      "model": "gemini-3.5-flash-lite",
+      "temperature": 0.0,
+      "question_id": "course",
+      "question": "What are the 3 homework levels in the AIE2026 course?",
+      "repeat": 3,
+      "mode": "stateless"
+    },
+    {
+      "trial": "gemini-3.5-flash-lite:t1.0:course:r2",
+      "model": "gemini-3.5-flash-lite",
+      "temperature": 1.0,
+      "question_id": "course",
+      "question": "What are the 3 homework levels in the AIE2026 course?",
+      "repeat": 2,
+      "mode": "stateless"
+    },
+    {
+      "trial": "gemini-3.5-flash-lite:t1.0:general:r2",
+      "model": "gemini-3.5-flash-lite",
+      "temperature": 1.0,
+      "question_id": "general",
+      "question": "What is LoRA?",
+      "repeat": 2,
+      "mode": "stateless"
+    },
+    {
+      "trial": "gemini-3.1-flash-lite:t0.0:general:r3",
+      "model": "gemini-3.1-flash-lite",
+      "temperature": 0.0,
+      "question_id": "general",
+      "question": "What is LoRA?",
+      "repeat": 3,
+      "mode": "stateless"
+    },
+    {
+      "trial": "gemini-3.1-flash-lite:t0.0:course:r3",
+      "model": "gemini-3.1-flash-lite",
+      "temperature": 0.0,
+      "question_id": "course",
+      "question": "What are the 3 homework levels in the AIE2026 course?",
+      "repeat": 3,
+      "mode": "stateless"
+    },
+    {
+      "trial": "chat:remember",
+      "model": "gemini-3.5-flash-lite",
+      "temperature": 0.0,
+      "mode": "chat",
+      "question": "Remember this code for my next question: ORCHID-7429. Reply only ACK."
+    },
+    {
+      "trial": "chat:recall",
+      "model": "gemini-3.5-flash-lite",
+      "temperature": 0.0,
+      "mode": "chat",
+      "question": "What code did I ask you to remember? Reply only with the code."
+    },
+    {
+      "trial": "chat:stateless-control",
+      "model": "gemini-3.5-flash-lite",
+      "temperature": 0.0,
+      "mode": "stateless",
+      "question": "What code did I ask you to remember? Reply only with the code."
+    }
+  ]
+}

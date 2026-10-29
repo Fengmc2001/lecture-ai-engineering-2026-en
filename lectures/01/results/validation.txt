@@ -1,0 +1,15 @@
+Unit tests (no API calls):
+................                                                         [100%]
+=============================== warnings summary ===============================
+../../home/codespace/.local/lib/python3.14/site-packages/google/genai/types.py:42
+  /home/codespace/.local/lib/python3.14/site-packages/google/genai/types.py:42: DeprecationWarning: '_UnionGenericAlias' is deprecated and slated for removal in Python 3.17
+    VersionedUnionType = Union[builtin_types.UnionType, _UnionGenericAlias]
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+16 passed, 1 warning in 4.96s
+
+CLI smoke check (/reset then /exit; no generated answer):
+[model] gemini-3.5-flash-lite; temperature=0.0
+You (/exit to finish, /reset to clear history): [history cleared]
+You (/exit to finish, /reset to clear history):
+CLI exit code: 0
